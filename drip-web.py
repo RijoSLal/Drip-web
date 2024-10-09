@@ -96,4 +96,4 @@ with col2:
 
 st.sidebar.markdown("---")
 st.sidebar.write("Use the drawing tools on the sidebar to start creating! Toggle the wiper for corrections")
-st.markdown("<footer style='text-align: left; margin-top: 20px;'>© Rijo S Lal</footer>", unsafe_allow_html=True)
+st.markdown("<footer style='text-align: left; margin-top: 20px;'>© 🅡🅘🅙🅞 🅢 🅛🅐🅛</footer>", unsafe_allow_html=True)
