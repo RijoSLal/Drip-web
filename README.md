@@ -1,4 +1,4 @@
-# DRIP 🎨 - Drawing Recognizing Intelligent Programme
+# DRIP 🎨 - Drawing Recognition Intelligent Programme
 
 ## Introduction
 
