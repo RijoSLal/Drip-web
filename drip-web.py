@@ -8,7 +8,7 @@ import google.generativeai as genai
 genai.configure(api_key=os.environ.get("API_KEY", "your api key"))
 
 # Streamlit app title
-st.title("DRIP 🎨 - Drawing Recognizing Intelligent Programme")
+st.title("Ⓓ🅡🅐🅦🅘🅝🅖 Ⓡ🅔🅒🅞🅖🅝🅘🅩🅘🅝🅖 Ⓘ🅝🅣🅔🅛🅛🅘🅖🅔🅝🅣 Ⓟ🅡🅞🅖🅡🅐🅜🅜🅔")
 
 # Sidebar settings
 st.sidebar.markdown("### Settings")
