@@ -3,9 +3,11 @@ from streamlit_drawable_canvas import st_canvas
 from PIL import Image
 import os
 import google.generativeai as genai
+import os
+key = os.getenv("API_KEY")  # Fetch API key from environment variable
 
 
-genai.configure(api_key=os.environ.get("API_KEY", "your api key"))
+genai.configure(api_key=key)
 
 # Streamlit app title
 st.title("Ⓓ🅡🅐🅦🅘🅝🅖 Ⓡ🅔🅒🅞🅖🅝🅘🅣🅘🅞🅝 Ⓘ🅝🅣🅔🅛🅛🅘🅖🅔🅝🅣 Ⓟ🅡🅞🅖🅡🅐🅜🅜🅔")
