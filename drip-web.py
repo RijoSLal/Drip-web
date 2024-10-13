@@ -17,7 +17,7 @@ genai.configure(api_key=key)
 
 # Streamlit app title
 st.markdown("""
-    <h1 style='text-align: left;'>
+    <h1 style='text-align: left;white-space: nowrap;'>
         Ⓓ🅡🅐🅦🅘🅝🅖<br>
         Ⓡ🅔🅒🅞🅖🅝🅘🅣🅘🅞🅝<br>
         Ⓘ🅝🅣🅔🅛🅛🅘🅖🅔🅝🅣<br>
