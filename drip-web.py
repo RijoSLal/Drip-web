@@ -55,7 +55,7 @@ canvas_result = st_canvas(
 response_container = st.container()
 
 # Create a responsive layout
-col1, col2 = st.columns([3, 1])  # Adjust the proportions as needed
+col1, col2 = st.columns([4, 1])  # Adjust the proportions as needed
 
 with col1:
     # Placeholder for response text
