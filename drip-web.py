@@ -46,7 +46,7 @@ canvas_result = st_canvas(
     stroke_color=stroke_color,
     background_color="black",
     height=500,
-    width=int(st.sidebar.slider("Canvas Width (%)", 50, 100, 100) * 5),
+    width=int(st.sidebar.slider("Canvas Width (%)", 50, 100, 90) * st.beta_container().width / 100),
     drawing_mode="freedraw",
     key="canvas",
 )
